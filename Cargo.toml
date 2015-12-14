@@ -1,0 +1,10 @@
+[package]
+name = "falconos"
+version = "0.1.0"
+authors = ["Erik Davidson <erik@erikd.org>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc = "0.1"
