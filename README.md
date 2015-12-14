@@ -1,7 +1,7 @@
 falconos
 ========
 
-falconos (fal-co-nos) is a hobby OS I'm using to learn and experiment with.  It's mainly used to follow tutorials I find online and mess around with ideas before I try to implement it "better" in aphOS.
+falconos (fal-co-nos) is a hobby OS I'm using to learn and experiment with.  It's mainly used to follow tutorials I find online and mess around with ideas before I try to implement it "better" in aphOS. A lot of code and ideas will come from the places listed below.
 
 Here's a mockup that was commissioned for me and is my target for the falconos GUI:
 
