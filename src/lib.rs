@@ -26,3 +26,10 @@ pub extern fn kernel_main() {
     println!("    {}", fmt);
 	loop { }
 }
+
+#[allow(non_snake_case)]
+#[no_mangle]
+pub extern "C" fn _Unwind_Resume() -> ! {
+    println!("\n\nUnwind resume called");
+    loop {}
+}

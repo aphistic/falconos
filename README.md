@@ -14,3 +14,4 @@ Tutorials and Docs
 * [Writing an OS in Rust](http://os.phil-opp.com/)
 * [Bare Metal Rust](http://www.randomhacks.net/bare-metal-rust/)
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+* [intermezzOS](https://intermezzos.github.io/)
