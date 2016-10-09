@@ -15,3 +15,5 @@ Tutorials and Docs
 * [Bare Metal Rust](http://www.randomhacks.net/bare-metal-rust/)
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 * [intermezzOS](https://intermezzos.github.io/)
+* [The little book about OS development](https://littleosbook.github.io/)
+* [Bran's Kernel Development](http://www.osdever.net/bkerndev/Docs/title.htm)

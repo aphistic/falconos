@@ -9,6 +9,8 @@ extern crate spin;
 
 #[macro_use] mod vga_buffer;
 #[macro_use] mod portio;
+#[macro_use] mod log;
+mod serial;
 
 #[no_mangle]
 pub extern fn kernel_main() {
@@ -16,6 +18,10 @@ pub extern fn kernel_main() {
 
     vga_buffer::clear_screen();
     println!("Hello world{}", "!");
+
+    logln!("ASDF: 0x{0:X}", 0x1234);
+
+    println!("After serial");
 
     loop{}
 }

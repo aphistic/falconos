@@ -44,8 +44,16 @@ impl<T: PortInOut> Port<T> {
 		unsafe { T::port_in(self.port) }
 	}
 
+	pub fn read_offset(&mut self, offset: u16) -> T {
+		unsafe { T::port_in(self.port + offset) }
+	}
+
 	pub fn write(&mut self, value: T) {
 		unsafe { T::port_out(value, self.port); }
+	}
+
+	pub fn write_offset(&mut self, offset: u16, value: T) {
+		unsafe { T::port_out(value, self.port + offset); }
 	}
 }
 
