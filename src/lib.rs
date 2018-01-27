@@ -2,6 +2,7 @@
 #![feature(const_fn)]
 #![feature(unique)]
 #![feature(asm)]
+#![feature(ptr_internals)]
 #![no_std]
 
 extern crate rlibc;
@@ -27,7 +28,7 @@ pub extern fn kernel_main() {
 }
 
 #[lang = "eh_personality"] extern fn eh_personality() { }
-#[lang = "panic_fmt"] extern fn panic_fmt(fmt: core::fmt::Arguments, file: &str, line: u32) -> ! {
+#[lang = "panic_fmt"] #[no_mangle] extern fn panic_fmt(fmt: core::fmt::Arguments, file: &str, line: u32) -> ! {
 	println!("\n\nPANIC in {} at line {}:", file, line);
     println!("    {}", fmt);
 	loop { }

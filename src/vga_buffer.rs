@@ -5,7 +5,9 @@ use spin::Mutex;
 pub static WRITER: Mutex<Writer> = Mutex::new(Writer {
     column_position: 0,
     color_code: ColorCode::new(Color::LightGray, Color::Black),
-    buffer: unsafe { Unique::new(0xb8000 as *mut _) },
+    buffer: unsafe {
+        Unique::new_unchecked(0xb8000 as *mut _)
+    },
 });
 
 macro_rules! println {
@@ -92,7 +94,7 @@ impl Writer {
     }
 
     fn buffer(&mut self) -> &mut Buffer {
-        unsafe{ self.buffer.get_mut() }
+        unsafe{ self.buffer.as_mut() }
     }
 
     fn new_line(&mut self) {
