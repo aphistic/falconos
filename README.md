@@ -17,3 +17,4 @@ Tutorials and Docs
 * [intermezzOS](https://intermezzos.github.io/)
 * [The little book about OS development](https://littleosbook.github.io/)
 * [Bran's Kernel Development](http://www.osdever.net/bkerndev/Docs/title.htm)
+* [DOS and BIOS info](http://www.techhelpmanual.com/2-main_menu.html)
