@@ -18,3 +18,4 @@ Tutorials and Docs
 * [The little book about OS development](https://littleosbook.github.io/)
 * [Bran's Kernel Development](http://www.osdever.net/bkerndev/Docs/title.htm)
 * [DOS and BIOS info](http://www.techhelpmanual.com/2-main_menu.html)
+* [Writing a Memory Allocator](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/)
