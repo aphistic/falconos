@@ -1,14 +1,8 @@
 [package]
 name = "falconos"
-version = "0.1.0"
-authors = ["Erik Davidson <erik@erikd.org>"]
-
-[lib]
-crate-type = ["staticlib"]
-
-[dependencies]
-rlibc = "0.1"
-spin = "0.3.4"
+version = "0.0.1"
+authors = ["Kristin Davidson <k@kxd.dev>"]
+edition = '2018'
 
 [profile.dev]
 panic = "abort"
