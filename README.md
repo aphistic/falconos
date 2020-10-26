@@ -25,3 +25,4 @@ Here's a mockup that was commissioned for me and is my target for the falconos G
 
 ## Windowing Systems
 * [Windowing Systems: Learning by Example](https://web.archive.org/web/20170508215816/http://www.trackze.ro/windowing-systems-learning-by-example-introduction/)
+* [Writing a Memory Allocator](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/)
